@@ -1,0 +1,31 @@
+1. First Test Case
+
+Enter travel budget in hours: 4
+Travel Budget: 4 hours
+Greedy: Hotel -> Fort -> Temple | 4 h | Rating 14
+Best (backtracking): Hotel -> Lake -> Museum -> Temple | 3 h | Rating 15
+
+
+
+2. Second Test Case
+
+Enter travel budget in hours: 1
+Travel Budget: 1 hours
+Greedy: Hotel -> Lake | 1 h | Rating 4
+Best (backtracking): Hotel -> Lake | 1 h | Rating 4
+
+
+
+3. Third Test Case
+
+Enter travel budget in hours: -2
+Invalid budget. Hours must be greater than 0.
+
+
+
+4. Fourth Test Case
+
+Enter travel budget in hours: 2
+Travel Budget: 2 hours
+Greedy: Hotel -> Fort | 2 h | Rating 8
+Best (backtracking): Hotel -> Lake -> Museum | 2 h | Rating 9
